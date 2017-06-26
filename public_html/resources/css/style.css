@@ -1,0 +1,322 @@
+@charset "utf8";
+@import url(https://fonts.googleapis.com/css?family=Architects+Daughter);
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,300italic,400italic,600,600italic);
+
+html {
+    font-size: 62.5%;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+body { padding-top: 70px; }
+.banner {
+    border-bottom: 0.1rem solid #cccccc;
+    width: 100%;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    background-color: #f2f2f2;
+}
+
+.logo {
+    background-image: url("data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjAiIGlkPSJMYXllcl80IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCIKCSB2aWV3Qm94PSIwIDAgNDQgNDQiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDQ0IDQ0OyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+CjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+Cgkuc3Qwe2ZpbGw6IzAwODI0Mjt9Cgkuc3Qxe2ZpbGw6I0I1MTkxRTt9Cjwvc3R5bGU+CjxnPgoJPGc+CgkJPHBhdGggZD0iTTguMiw2LjNjMC0wLjUtMC40LTAuOS0wLjktMC45UzYuMyw1LjgsNi4zLDYuM3YzMC4zYzAsMC41LDAuNCwwLjksMC45LDAuOXMwLjktMC40LDAuOS0wLjlWMjMuNWw0LjksNC45di0yLjZsLTQuMy00LjMKCQkJbDQuMy00LjN2LTIuNmwtNC45LDQuOVY2LjN6Ii8+CgkJPHBhdGggZD0iTTM3LjgsNS40Yy0wLjUsMC0wLjksMC40LTAuOSwwLjl2MTIuOUwyMy4zLDUuN2MtMC40LTAuNC0wLjktMC40LTEuMywwbC00LjQsNC40djIuNmw1LjEtNS4xbDEzLjgsMTMuOEwyMi42LDM1LjMKCQkJbC01LjEtNS4xdjIuNmw0LjQsNC40YzAuMiwwLjIsMC40LDAuMywwLjcsMC4zczAuNS0wLjEsMC43LTAuM2wxMy42LTEzLjZ2MTIuOWMwLDAuNSwwLjQsMC45LDAuOSwwLjlzMC45LTAuNCwwLjktMC45VjYuMwoJCQlDMzguNyw1LjgsMzguMyw1LjQsMzcuOCw1LjR6Ii8+Cgk8L2c+Cgk8cGF0aCBjbGFzcz0ic3QwIiBkPSJNMjYuNywzNS42YzAsMC40LDAsMC43LDAsMC43Yy0wLjEsMS45LTEuNiwzLjEtMy41LDMuMWgtMy40Yy0xLjksMC0zLjUtMS4yLTMuNS0zLjJWNy44CgkJYzAtMS45LDEuNi0zLjUsMy41LTMuNWgzLjRjMS45LDAsMy41LDEuNSwzLjUsMy40YzAsMCwwLDAuMywwLDAuNmwxLjksMS44YzAtMC45LDAtMi40LDAtMi41Yy0wLjEtMi45LTIuNS01LjItNS40LTUuMmgtMy40CgkJYy0zLDAtNS40LDIuNC01LjQsNS40djI4LjVjMCwzLDIuNCw1LDUuNCw1aDMuNGMyLjksMCw1LjMtMiw1LjQtNC45YzAsMCwwLTEuOSwwLTIuNkwyNi43LDM1LjZ6Ii8+Cgk8cGF0aCBjbGFzcz0ic3QxIiBkPSJNNDAuNCwzLjFoLTUuM2MtMC41LDAtMC45LDAuNC0wLjksMC45djlsLTQuMy00LjF2Mi42bDQuNiw0LjRjMC4zLDAuMywwLjcsMC4zLDEsMC4yYzAuMy0wLjEsMC42LTAuNSwwLjYtMC45CgkJVjVoMy40djM0LjFIMzZWMjguNmMwLTAuNC0wLjItMC43LTAuNi0wLjljLTAuMy0wLjEtMC43LTAuMS0xLDAuMmwtMy4yLDNsLTEuNSwxLjR2Mi42bDIuOC0yLjdsMS42LTEuNVY0MGMwLDAuNSwwLjQsMC45LDAuOSwwLjkKCQloNS4zYzAuNSwwLDAuOS0wLjQsMC45LTAuOVY0QzQxLjMsMy41LDQwLjksMy4xLDQwLjQsMy4xeiIvPgoJPHBhdGggY2xhc3M9InN0MSIgZD0iTTQzLjEsNDQuMUgxLjhjLTAuNSwwLTAuOS0wLjQtMC45LTAuOVYwLjljMC0wLjUsMC40LTAuOSwwLjktMC45aDQxLjJjMC41LDAsMC45LDAuNCwwLjksMC45djQyLjMKCQlDNDQsNDMuNyw0My42LDQ0LjEsNDMuMSw0NC4xeiBNMi44LDQyLjNoMzkuM1YxLjhIMi44VjQyLjN6Ii8+Cgk8cGF0aCBjbGFzcz0ic3QxIiBkPSJNMTMsMzAuM2wtMi41LTIuNGMtMC4zLTAuMy0wLjctMC4zLTEtMC4yQzkuMiwyNy45LDksMjguMiw5LDI4LjZ2MTAuNUg1LjVWNUg5djEwLjJjMCwwLjQsMC4yLDAuNywwLjYsMC45CgkJYzAuMywwLjEsMC43LDAuMSwxLTAuMmwyLjUtMi40VjExbC0yLjIsMi4xVjRjMC0wLjUtMC40LTAuOS0wLjktMC45SDQuNkM0LjEsMy4xLDMuNywzLjUsMy43LDR2MzZjMCwwLjUsMC40LDAuOSwwLjksMC45aDUuMwoJCWMwLjUsMCwwLjktMC40LDAuOS0wLjl2LTkuM2wyLjIsMi4xVjMwLjN6Ii8+CjwvZz4KPC9zdmc+");
+    background-size: 18rem 18rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 18rem;
+    width: 18rem;
+    vertical-align: top;
+    display: inline-block;
+}
+
+.text {
+    padding-left: 1rem;
+    display: inline-block;
+}
+
+.title {
+    font-family: 'Architects Daughter';
+    font-size: 4rem;
+    line-height: 4.4rem;
+}
+
+.subtitle {
+    font-family: 'Source sans pro';
+    font-size: 2.4rem;
+    text-transform: uppercase;
+}
+
+.subtitle.line2 {
+    font-style: italic;
+}
+.panel-heading{
+    font-family: 'Architects Daughter';
+}
+
+.panel-red {
+    border-bottom-color: #b5191e !important;;
+    border-bottom-width: medium;
+}
+.panel-green {
+    border-bottom-color: #008242 !important;;
+    border-bottom-width: medium;
+}
+.panel-black {
+    border-bottom-color: #000000 !important;;
+    border-bottom-width: medium;
+}
+
+.panel-shield-left {
+    background-image: url("/resources/images/shield.png");
+    background-size: 40px;
+    background-repeat: no-repeat;
+    background-position: left center;
+    z-index: -10;
+}
+.panel-shield-right {
+    background-image: url("/resources/images/shield.png");
+    background-size: 40px;
+    background-repeat: no-repeat;
+    background-position: right center;
+    z-index: -10;
+}
+
+
+.red-bottom{
+    border-bottom-color: red;border-bottom-width: medium;
+}
+.panel-title{
+    font-size: 2rem;
+}
+.panel-body{
+    font-family: 'Source sans pro';
+}
+.panel-footer{
+    font-family: 'Architects Daughter';
+}
+.info-label {
+    font-family: 'Architects Daughter';
+    font-size: 2.5rem;
+}
+.info-text {
+    font-family: 'Source sans pro';
+    font-size: 1.8rem;
+    text-transform: uppercase;
+}
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+    background-color: #808080;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  font-family: 'Architects Daughter';
+}
+
+.social-block{
+
+}
+    
+@media (min-width:340px) {
+    .logo {
+        background-size: 8rem 8rem;
+        background-repeat: no-repeat;
+        height: 8rem;
+        width: 8rem;
+    }
+    .title {
+        font-size: 2.6rem;
+        line-height: 3.2rem;
+    }
+    .subtitle {
+        font-size: 1.2rem;
+    }
+    .info-label {
+        font-size: 2.4rem;
+    }
+    .info-text {
+        font-size: 1.0rem;
+    }
+    .panel-title{
+        font-size: 2.4rem;
+    }
+
+}
+@media (min-width:499px) {
+    .logo {
+        background-size: 10rem 10rem;
+        background-repeat: no-repeat;
+        height: 10rem;
+        width: 10rem;
+    }
+    .title {
+        font-size: 3.2rem;
+        line-height: 3.6rem;
+    }
+    .subtitle {
+        font-size: 1.8rem;
+    }
+    .info-label {
+        font-size: 3.0rem;
+    }
+    .info-text {
+        font-size: 1.6rem;
+    }
+    .panel-title{
+        font-size: 2.8rem;
+    }
+}
+@media (min-width:768px) {
+    .logo {
+        background-size: 12rem 12rem;
+        background-repeat: no-repeat;
+        height: 10rem;
+        width: 10rem;
+    }
+    .title {
+        font-size: 3.6rem;
+        line-height: 4.0rem;
+    }
+    .subtitle {
+        font-size: 2.0rem;
+    }
+    .info-label {
+        font-size: 3.4rem;
+    }
+    .info-text {
+        font-size: 1.8rem;
+    }
+    .panel-title{
+        font-size: 2.8rem;
+    }
+}
+@media (min-width:992px) {
+    .logo {
+        background-size: 14rem 14rem;
+        background-repeat: no-repeat;
+        height: 14rem;
+        width: 14rem;
+    }
+    .title {
+        font-size: 4.4rem;
+        line-height: 4.8rem;
+    }
+    .subtitle {
+        font-size: 2.6rem;
+    }
+    .info-label {
+        font-size: 4.2rem;
+    }
+    .info-text {
+        font-size: 2.4rem;
+    }
+    .panel-title{
+        font-size: 3.6rem;
+    }
+}
+
+@media (min-width:1200px) {
+    .logo {
+        background-size: 16rem 16rem;
+        background-repeat: no-repeat;
+        height: 16rem;
+        width: 16rem;
+    }
+    .title {
+        font-size: 4.8rem;
+        line-height: 5.2rem;
+    }
+    .subtitle {
+        font-size: 3.0rem;
+    }
+    .info-label {
+        font-size: 4.6rem;
+    }
+    .info-text {
+        font-size: 2.8rem;
+    }
+    .panel-title{
+        font-size: 4.4rem;
+    }
+}
+@media (min-width:1600px) {
+    .logo {
+        background-size: 18rem 18rem;
+        background-repeat: no-repeat;
+        height: 18rem;
+        width: 18rem;
+    }
+    .title {
+        font-size: 5.2rem;
+        line-height: 5.6rem;
+    }
+    .subtitle {
+        font-size: 3.2rem;
+    }
+    .info-label {
+        font-size: 5.0rem;
+    }
+    .info-text {
+        font-size: 3.0rem;
+    }
+    .panel-title{
+        font-size: 4.8rem;
+    }
+}
+.navbar {
+    margin-bottom: 0;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #f2f2f2;
+    padding: 25px;
+}
+
+.carousel-inner img {
+    width: 100%;
+    margin: auto;
+    min-height: 200px;
+}
+
+.carousel-caption {
+    color: #008242;
+    text-align: right;
+}
+
+.navbar-brand {
+    float: left;
+    height: 50px;
+    padding: 0px 0px;
+    font-size: 18px;
+    line-height: 20px;
+}
+/* Hide the carousel text when the screen is less than 600 pixels wide */
+@media (max-width:600px) {
+    .carousel-caption {
+        display: none;
+    }
+}
+
+@media (min-width:768px) {
+    .lead {
+        font-size: 21px;
+    }
+}
+
+@media (min-width:992px) {
+    .container {
+        width: 970px;
+    }
+}
+
+@media (min-width:1200px) {
+    .container {
+        width: 1170px;
+    }
+}
